@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Contact Us </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<div class="contact-main">
+			<a href="MainPage.html"  >Home </a>	
+		</div>
+	</head>
+
+<body>
+	<div class="container">
+		<div style="text-align:center" class="content-section">
+			<h2>Contact Us</h2>
+			<p>Have any query? or any help?, leave us a message.:</p>
+	</div>
+	<div class="crow">
+		<div class="ccolumn">
+			<img src="contact.jpg" style="width:95%">
+		</div>
+		<div class="ccolumn">
+			<form action="contact.php" method="post">
+			<label for="fullname">Your Full Name</label>
+			<input type="text" id="fullname" name="fullname" placeholder="Your Full name..">
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your Email Id ..">
+			<label for="query">Select your query</label>
+			<select id="query" name="query">
+			<option value="info">Vaccine Information</option>
+			<option value="slot">Slot Booking Information</option>
+			<option value="other">Other</option>
+			</select>
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+			<input  name="submit" type="submit" value="submit">
+			</form>
+    </div>
+  </div>
+  <div class="ccontent">
+			<h1>Helpline</h1>
+				<br>
+				<p>+91 11 23978046 (Toll Free- 1075)</p>
+				<br>
+			<p>Technical Helpline<br>0120 4473222</p>
+		<br>
+	</div>
+</div>
+</body>
+</html>
